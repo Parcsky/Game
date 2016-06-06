@@ -23,6 +23,7 @@ public class BulletController extends WeaponControl {
             weapon.update();
             if (weapon.getY() < -100 || weapon.getY() > Game.height) {
                 iterator.remove();
+                System.out.println("AW");
             }
         }
     }
